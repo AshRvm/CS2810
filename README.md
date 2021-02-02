@@ -1,1 +1,1 @@
-# CS2810
+Lab assignments for CS2810 course 
