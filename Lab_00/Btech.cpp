@@ -2,11 +2,22 @@
 #include "Btech.h"
 #include <string>
 
+string Btech::getHostel(){
+    return(hostel);
+}
+
+Faculty Btech::getFacad(){
+    return(facad);
+}
+
+void Btech::changeHostel(string newHostel){
+    hostel = newHostel;
+}
+
 Faculty Btech::getBTPGuide(){
-    Faculty fac;
     
 }
 
-Void Btech::setBTPGuide(Faculty fac){
+void Btech::setBTPGuide(Faculty fac){
 
 }
