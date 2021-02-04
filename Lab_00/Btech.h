@@ -10,6 +10,7 @@ class Btech{
         string hostel;
         Faculty facad;
         float cgpa;
+        Faculty BTPguide;
     public:
         string getHostel();
         Faculty getFacad();

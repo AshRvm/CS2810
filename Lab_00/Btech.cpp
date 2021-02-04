@@ -15,9 +15,9 @@ void Btech::changeHostel(string newHostel){
 }
 
 Faculty Btech::getBTPGuide(){
-    
+    return(BTPguide);
 }
 
 void Btech::setBTPGuide(Faculty fac){
-
+    BTPguide = fac;
 }

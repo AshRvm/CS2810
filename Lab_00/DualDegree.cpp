@@ -15,17 +15,17 @@ void DualDegree::changeHostel(string newHostel){
 }
 
 Faculty DualDegree::getDDPGuide(){
-    
+    return(DDPGuide);
 }
 
 Faculty DualDegree::getTASupervisor(){
-
+    return(TASupervisor);
 }
 
 void DualDegree::setDDPGuide(Faculty fac){
-
+    DDPGuide = fac;
 }
 
 void DualDegree::setTASupervisor(Faculty fac){
-    
+    TASupervisor = fac;
 }

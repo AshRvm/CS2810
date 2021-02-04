@@ -10,14 +10,16 @@ class DualDegree{
         string hostel;
         Faculty facad;
         float cgpa;
+        Faculty DDPGuide;
+        Faculty TASupervisor;
     public:
         string getHostel();
         Faculty getFacad();
         void changeHostel();
         Faculty getDDPGuide();
-        Faculty geTASupervisor();
+        Faculty getTASupervisor();
         void setDDPGuide(Faculty);
-        void serTASupervisor(Faculty);
+        void setTASupervisor(Faculty);
 };
 
 #endif
